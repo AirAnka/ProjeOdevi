@@ -1,16 +1,14 @@
 package com.selenium.webdriver;
 
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
+import java.util.List;
+import org.junit.Assert;
+import org.junit.FixMethodOrder;
+import org.junit.Test;
+import org.junit.runners.MethodSorters;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class Testing extends com.selenium.webdriver.Page {
